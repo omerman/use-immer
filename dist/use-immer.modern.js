@@ -1,2 +1,2 @@
-import t from"immer";import{useState as r,useCallback as n,useMemo as o,useReducer as e}from"react";function c(o){const[e,c]=r(o);return[e,n(r=>{if("function"==typeof r){let n;return c(o=>(n=t(o,r),n)),n}{const t=r;return c(t),t}},[])]}function f(r,n,c){const f=o(()=>t(r),[r]);return e(f,n,c)}export{c as useImmer,f as useImmerReducer};
+import r from"immer";import{useState as t,useCallback as o,useMemo as e,useReducer as n}from"react";function i(e){const[n,i]=t(e);return[n,o(t=>{if("function"==typeof t){let o;return new Promise(e=>{i(n=>(o=r(n,t),e(o),o))})}{const r=t;return i(r),Promise.resolve(r)}},[])]}function m(t,o,i){const m=e(()=>r(t),[t]);return n(m,o,i)}export{i as useImmer,m as useImmerReducer};
 //# sourceMappingURL=use-immer.modern.js.map
